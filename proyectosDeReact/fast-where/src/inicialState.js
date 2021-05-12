@@ -1,0 +1,82 @@
+export default {
+  cart: [],
+  buyer: [],
+  orders: [],
+  cupones: [
+    {
+      id: 1,
+      codigo: "111A",
+      porcentaje: 10,
+    },
+    {
+      id: 2,
+      codigo: "111B",
+      porcentaje: 5,
+    },
+  ],
+  products: [
+    {
+      id: "1",
+      image: "https://www.jordansaleuk.com/wp-content/uploads/2019/01/air-jordan-1-retro-high-og-unc-patent-leather-obsidian-blue-chill-white-uk.jpeg",
+      title: "Air Jordan Retro 1",
+      price: 25,
+      description: "Descubre y compra las Air Jordan para mujer. Anticípate a los lanzamientos de las últimas zapatillas.",
+    },
+    {
+      id: "2",
+      image: "https://i.pinimg.com/474x/85/07/2a/85072ac3d7f385914bc8b50738ba5201.jpg",
+      title: "Air Jordan 1",
+      price: 10,
+      description: "zapatillas nike, modelos de zapatos nike Todas las Air Jordan que aparecen en The Last Dance ",
+    },
+    {
+      id: "3",
+      image: "https://images.unsplash.com/photo-1549298916-f52d724204b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=701&q=80",
+      title: "Nike Air Force 1 x",
+      price: 4,
+      description: "zapatillas nike, modelos de zapatos nike Todas las Air Force 1 que aparecen en The Last Dance ",
+    },
+    {
+      id: "4",
+      image: "https://http2.mlstatic.com/D_NQ_NP_650343-MCO31509325591_072019-W.jpg",
+      title: "Camisa jordan",
+      price: 2,
+      description: "las mejores telas y costura, camisa jordan vercion ilimitada",
+    },
+    {
+      id: "5",
+      image: "https://products-pictures.mucca.co/737a7a403fc4-camiseta-de-hombre-m-j-sprt-dna-hbr-fleece-crew-nike-naranja-thumb_210x240.jpg?1613019685.3384607",
+      title: "Hoodie jordan",
+      price: 2,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    },
+    {
+      id: "6",
+      image: "https://images.footballfanatics.com/minnesota-timberwolves/minnesota-timberwolves-jordan-statement-swingman-jersey-custom-youth_ss4_p-12016615+u-2wzb2un8x340fykndwr7+v-e2b784dbdd434a019f71d82723ae9d8d.jpg?_hv=1&w=900",
+      title: "Hoodie",
+      price: 35,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    },
+    {
+      id: "7",
+      image: "https://www.innvictus.com/medias/IN-CD4937-011-1.png?context=bWFzdGVyfGltYWdlc3wxMjE2OTJ8aW1hZ2UvcG5nfGltYWdlcy9oNjUvaDA1Lzk4ODMwOTEwNDIzMzQucG5nfGZlNmEyMjA3ZGE2YzRkYTExZmE3M2IzMjIzZTU5ZGY0NjA2ZDk4NGY2MTQ3N2U0YjYyN2U4ZGVhMmRmZjA3YTk",
+      title: "Pantaloneta Jordan",
+      price: 2,
+      description: "Sube a la ocasión con estos Jordan pantalones cortos. Con tela Nike Dry, una cintura elástica, un ajuste subida, y mucho más, el diamante Jordan ",
+    },
+    {
+      id: "8",
+      image: "https://images-na.ssl-images-amazon.com/images/I/61SsEK%2BtpjL._AC_UL1000_.jpg",
+      title: "Pantaloneta Jordan",
+      price: 2,
+      description: "Sube a la ocasión con estos Jordan pantalones cortos. Con tela Nike Dry, una cintura elástica, un ajuste subida, y mucho más, el diamante Jordan ",
+    },
+    {
+      id: "9",
+      image: "data:image/jpeg;base64,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",
+      title: "Pantaloneta Jordan",
+      price: 35,
+      description: "Sube a la ocasión con estos Jordan pantalones cortos. Con tela Nike Dry, una cintura elástica, un ajuste subida, y mucho más, el diamante Jordan ",
+    },
+  ],
+};
