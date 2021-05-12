@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+<img src='https://github.com/Josimar-Victoria/fast-where/blob/master/proyectosDeReact/fast-where/Captura%20de%20pantalla%20de%202021-05-11%2022-48-13.png?raw=true'/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
